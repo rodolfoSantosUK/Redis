@@ -1,0 +1,71 @@
+
+1) MSET
+
+# Set multiples kyes to respective values
+# Replaces existings values with new ones
+
+2) MSETNX
+
+#  Sets multiple keys to respective values as long as none of the key exist
+
+3) MGET
+
+# Return values of all specified keys
+
+4) APPEND
+
+5) GETRANGE
+
+# Return ths substring of a string value
+
+6) GETSET
+
+# AUTOMATICALY SETS KEY TO VALUE AND RETURNS THE OLD VALUE
+
+7) SETEX
+
+# Set key to hold a string value and timeout after a given amount of seconds
+
+9) PERSIST
+
+10) EXPIRE
+
+FLUSHALL
+EXPIRE key1 10
+ttl key1
+
+11) PSETEX
+
+PSETEX key1 50000 "hello"
+PTTL key1
+PTTL key1
+
+# Removes existing timeout on a key
+
+#####################################################################################################################
+
+
+MSET KEY1 "HELLO" KEY2 "World"
+
+MGET key1 key2
+
+MSETNX key4 "something" key3 "Testing"
+
+Step 2
+
+SET greeting "Hello"
+
+GET greeting
+
+RENAME greeting greet
+
+
+
+
+
+
+
+
+
+
+
